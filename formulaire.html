@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+      <h1 id="title">Ma formulaire de gaming</h1>
+      <p id="description">veillez remplir ce formulaire gaming</p>
+          </header>
+       
+      <form id="survey-form">
+         <div class="form-group">
+            <!--nom-->
+           <label id="name-label" for="name">Nom</label>
+        <input 
+             type=text 
+             id="name" 
+             placeholder="Entrez votre nom">
+        </div>
+           <!--Email-->
+        <div class="form-group">
+           <label id=email-label
+                  for="Email">Email</label>
+        <input id="email"
+             type="email" 
+             id="email" 
+             placeholder="Entrez votre Email"
+                     required
+                     />
+        </div>
+        <div class="form-group">
+         <label id="number-label" for="number">age</label>
+                
+      <input id="number"
+            type="number"
+              name=""
+              id="number"
+              min="10"
+              max="80" 
+             placeholder="Age"> 
+        </div>
+        <div class="form-controle">
+          <select id="dropdown">
+             <option id="dropdown" class="yaung" disabled selected> selectionner<option>
+            
+            <option id="dropdown" class="student"> Student<option>
+        <option id="dropdown" class="yaung"> teacher<option>
+             <option id="dropdown" class="cool"> headmaster<option>
+           
+          </select>
+        </div>
+        <p>quel est votre genre</p>
+         <label> 
+           <input type="radio" name="1"/>
+           man</label> 
+            <label>
+            <input type="radio" name="1"/>woman
+              </label>
+          <p>quelles categorie de jeux vous jouez</p>
+      <label>
+          <input type="checkbox" id="name"/>
+        arcade
+        </label>
+        <label>
+        <input type="checkbox" id="name"/>
+            strategie
+        </label>
+        <label>
+        <input type="checkbox" id="name"/>
+            combat
+        </label>
+        <label>
+        <input type="checkbox" id="name"/>
+            course
+        </label>
+        <label>
+        <input type="checkbox" id="name"/>
+            tir
+        </label>
+        <p>Si vous avez des commentaires</p>
+            <textarea class="input-textarea"  placeholder="veuiller ecrire votre commentaire">
+              </textarea>
+            </br>
+         <input class="submit-vert" type="submit" value="register"/>
+        
+      </form>
+      <div>
+</body>
+<style>
+    label{
+  display:flex;
+  
+}
+header{
+  margin-left:35%;
+  
+}
+.container{
+  
+ 
+  color:white;
+  font-size:1.9em;
+  background-image: linear-gradient(115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://www.boulanger.com/content/static/bcom/bcbu/pc-gamer/processeur.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+form{
+  
+}
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+#survey-form{
+  background-color: rgba(58, 58, 158, 0.8);
+  width:50%;
+  margin-left:35%;
+  
+  
+}
+.submit-vert{
+  background-color:green;
+}
+</style>
+</html>
